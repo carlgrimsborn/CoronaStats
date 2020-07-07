@@ -19,7 +19,7 @@
         var allAnnotations: [CoronaCaseAnnotation] = []
         
         for data in countryData {
-            let title = data.country + "\n Confirmed " + data.confirmed.formatNumber() + "\n Death " + data.deaths.formatNumber()
+            let title = data.country + "\n Confirmed " + data.confirmed.formatNumber() + "\n Deaths " + data.deaths.formatNumber()
             let coordinate = CLLocationCoordinate2D(latitude: data.latitude, longitude: data.longitude)
             allAnnotations.append(CoronaCaseAnnotation(title: title, coordinate: coordinate))
         }
