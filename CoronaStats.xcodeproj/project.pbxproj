@@ -132,6 +132,7 @@
 				B16965A324A5184C00EB410E /* CountryDetailView.swift */,
 				B10558D124A21A2C0076FCC3 /* Views */,
 				B15E912A249CADBB007D7144 /* Model */,
+				B1464B5324C06B8C00D2227E /* Service */,
 				B130A87D2497771A00E0AC9E /* Assets.xcassets */,
 				B130A8822497771A00E0AC9E /* LaunchScreen.storyboard */,
 				B130A8852497771A00E0AC9E /* Info.plist */,
@@ -150,12 +151,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B15E912A249CADBB007D7144 /* Model */ = {
+		B1464B5324C06B8C00D2227E /* Service */ = {
 			isa = PBXGroup;
 			children = (
 				B1EB0F6F2497A58E004CA7AC /* CovidFetchRequest.swift */,
-				B170CB392498FF7600E09655 /* Model.swift */,
 				B142AB1C24AF307B00932ADA /* CountryStatisticsFetchRequest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B15E912A249CADBB007D7144 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B170CB392498FF7600E09655 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

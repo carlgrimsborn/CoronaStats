@@ -23,7 +23,6 @@ class CovidfetchRequest: ObservableObject {
         getAllCountries()
         getCurrentTotal()
     }
-    
    func getCurrentTotal() {
 
     AF.request("https://covid-19-data.p.rapidapi.com/totals?format=json", headers: headers).responseJSON { response in
